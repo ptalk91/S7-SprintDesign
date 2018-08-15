@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Miami nights</title>
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/stylesheets/styles.css.erb">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="lt_Navbar">
+        <div class="logo">
+          <%= image_tag("soda-logo.png", alt:"lambo", class: "logo") %>
+        </div>
+        <ul class= "navhaute">
+              <li><button class="btn btn-primary btn-round" type "button">Orangina </li>
+              <li><button class="btn btn-primary btn-round" type "button">Ginger Beer </li>
+              <li><button class="btn btn-primary btn-round" type "button">Dr Pepper </li>
+        </ul>
+
+
+<!--ceci est le dropdown du sale-->
+      <div class="dropdown">
+        <img src="https://video-images.vice.com/articles/59d5fee86bfeac0c58172b79/lede/1507199531033-Niska_1cKoria.jpeg?resize=720" alt="Avatar" class="avatar">
+        <div class="dropdown-content">
+          <div class="desc">QUE DU SALE MON CHARO</div>
+        </div>
+      </div>
+</div>
+
+
+
+    </div>
+
+      <section class="lt_Banner" style="height: 100vh; color: pink; text-align: center; display: flex; align-items: flex-end; justify-content: space-around;">
+        <br>
+        <br>
+        <h1 style=" font-size: 100px;
+        font-weight: bolder; color: orange ;"> CHOISIS TA CAME</h1>
+
+
+
+
+
+      </section>
+
+
+    <div class="tabs">
+	    <input name="tabs" type="radio" id="tab-1" checked="checked" class="input"/>
+	    <label for="tab-1" class="label">Orangina</label>
+	      <div class="panel">
+		      <h1>Orangina</h1>
+		      <p>Selon le site web anglophone de la marque, « la formule exacte est un secret étroitement gardé, mais Orangina se compose d'une teneur élevée de jus et de pulpe d'orange : la boisson se compose de 12 % de jus, de 2 % de pulpe et d'huiles essentielles »1. La célébrité de la marque vient en partie de l’originalité de sa bouteille, en forme d'orange avec une surface granulée, qui n’a jamais changé depuis sa création.</p>
+		<p>Les ingrédients indiqués sur la canette en aluminium 33 cl (en octobre 2011) sont : eau gazéifiée, jus d'orange et autres agrumes à base de concentrés 12 % (orange 10 %, citron, pamplemousse, mandarine), sucre, pulpe d'orange 2 %, extrait de zeste d'orange, arômes naturels.</p>
+	      </div>
+
+	    <input name="tabs" type="radio" id="tab-2" class="input"/>
+	    <label for="tab-2" class="label">Ginger Beer</label>
+	    <div class="panel">
+		      <h1>Ginger Beer</h1>
+		      <p>La bière de gingembre (en anglais, ginger beer) est aujourd'hui une boisson gazeuse non alcoolisée originaire de la Jamaïque, où elle est produite depuis plusieurs siècles. Elle est obtenue par la mise en bouteille d'un liquide à base de gingembre frais lors du début de la fermentation de mélasse à l'aide de levure de boulanger.</p>
+		      <p>La bière de gingembre a été d'abord brassée dans le Yorkshire dans les années 17001 et cette boisson alcoolisée est devenue très populaire en Grande-Bretagne et en Amérique du Nord, avec, en 1935, 3000 brasseries en Grande-Bretagne, 300 aux États-Unis (où elles furent affectées par la loi de prohibition) et 1000 au Canada.</p>
+	    </div>
+
+	       <input name="tabs" type="radio" id="tab-3" class="input"/>
+	       <label for="tab-3" class="label">Dr Pepper</label>
+	       <div class="panel">
+		      <h1>Dr Pepper</h1>
+		      <p>Dr Pepper (prononcé « Doctor Pepper ») est la plus ancienne des marques de soda américain. À l'origine fabriquée artisanalement dans une quincaillerie de Waco (Texas) par un dénommé Charles Alderton, la boisson connut son premier succès lorsqu'elle fut mise en vente en 1885 (un an avant Coca-Cola).</p>
+          <p>L'aspect du Dr Pepper est visuellement le même que celui d'un soda au cola : brun, et avec le même type de bulles, c'est-à-dire extrêmement pétillant et gazeux.</p>
+
+	    </div>
+    </div>
+    <div class="cardbox">
+      <div class="card">
+          <%= image_tag("orangina.jpg", alt:"orangina", class: "cardimage") %>
+           <div class="blabla">
+            <h4><b>Orangina</b></h4>
+           <p>Secoue fort maggle</p>
+          </div>
+      </div>
+      <div class="card">
+        <%= image_tag("ginger-beer.jpg", alt:"ginger-beer", class: "cardimage") %>
+           <div class="blabla">
+            <h4><b>Ginger Beer</b></h4>
+           <p>Trop sous-estimée dans le game</p>
+          </div>
+        </div>
+      <div class="card">
+          <%= image_tag("dr-pepper.jpg", alt:"dr-pepper", class: "cardimage") %>
+            <div class="blabla">
+            <h4><b>Dr Pepper</b></h4>
+            <p>Classique de chez Classique</p>
+          </div>
+      </div>
+
+
+</div>
+
+
+    </div>
+
+
+</body>
+</html>
