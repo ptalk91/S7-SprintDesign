@@ -1,24 +1,19 @@
-# README
+# SPRINT DESIGN
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## EN LOCAL HOST
 
-Things you may want to cover:
+Toi même tu sais
 
-* Ruby version
+````
+git clone https://github.com/ptalk91/S7-SprintDesign.git
+bundle install
+rails server
+````
+Puis tu lances le localhost:3000 des familles
 
-* System dependencies
+## SUR HEROKU
 
-* Configuration
+>> https://desolate-earth-68024.herokuapp.com/
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
