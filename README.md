@@ -1,4 +1,8 @@
-# SPRINT DESIGN
+# >> SPRINT DESIGN
+
+## SUR HEROKU
+
+>>> https://desolate-earth-68024.herokuapp.com/
 
 ## EN LOCAL HOST
 
@@ -10,10 +14,3 @@ bundle install
 rails server
 ````
 Puis tu lances le localhost:3000 des familles
-
-## SUR HEROKU
-
->> https://desolate-earth-68024.herokuapp.com/
-
-
-
