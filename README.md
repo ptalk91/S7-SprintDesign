@@ -13,4 +13,4 @@ git clone https://github.com/ptalk91/S7-SprintDesign.git
 bundle install
 rails server
 ````
-Puis tu lances le localhost:3000 des familles
+Puis tu lances le localhost:3000 des familles sur ton navigateur web.
